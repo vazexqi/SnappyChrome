@@ -26,5 +26,8 @@
    "permissions": [ "contextMenus", "storage", "tabs", "\u003Call_urls\u003E" ],
    "update_url": "http://clients2.google.com/service/update2/crx",
    "version": "1.4.1",
-   "web_accessible_resources": [ "empty.png" ]
+   "web_accessible_resources": [ 
+     "empty.png",
+     "images/btn_hover.png",
+     "images/btn_normal.png" ]
 }
