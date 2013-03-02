@@ -266,7 +266,9 @@ function doGetSbiSearch(url, selected) {
   var search_url = 'http://' + SERVER_ + '/searchbyimage?' +
       CHROME_EXTENSION_VERSION_PARAMETER_NAME_ + '=' +
       CHROME_EXTENSION_VERSION_ +
-      '&image_url=' + encodeURIComponent(url);
+      '&image_url=' + encodeURIComponent(url) +
+      '&q=' + encodeURIComponent('site:ebay.com') + 
+      '&oq=' + encodeURIComponent('site:ebay.com');
 
   chrome.tabs.query({
     'active': true,
