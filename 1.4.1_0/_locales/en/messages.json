@@ -5,11 +5,11 @@
    },
    "extensionDescription": {
       "description": "The description of this extension.",
-      "message": "This extension allows you to initiate a Google search using any image on the web. By the Google Images team."
+      "message": "This extension allows you to initiate a Google search using any image on the web."
    },
    "extensionName": {
       "description": "The name of this extension.",
-      "message": "Search by Image (by Google)"
+      "message": "Find similar items on eBay"
    },
    "getURLOptionText": {
       "description": "The text of the GET URL option. If this is set, whenever the user does a search, the image is fetched from one of Google's datacenters instead of the browser uploading it to Google.",
