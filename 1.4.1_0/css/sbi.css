@@ -7,20 +7,20 @@
  * CSS for Search-by-Image (SBI) Chrome extension options page.
  */
 .sbi-box {
-  background: #EBEFF9 url(images/bottom-left.png) no-repeat left bottom;
+  background: #EBEFF9 url(../images/bottom-left.png) no-repeat left bottom;
 }
 
 .sbi-box-outer {
-  background: url(images/bottom-right.png) no-repeat right bottom;
+  background: url(../images/bottom-right.png) no-repeat right bottom;
   padding-bottom: 15px;
 }
 
 .sbi-box-inner {
-  background: url(images/top-left.png) no-repeat left top;
+  background: url(../images/top-left.png) no-repeat left top;
 }
 
 .sbi-box-header {
-  background: url(images/top-right.png) no-repeat right top;
+  background: url(../images/top-right.png) no-repeat right top;
   padding-top: 15px;
   padding-left: 25px;
   padding-right: 25px;
