@@ -125,6 +125,8 @@ function getSbiPageHTML(data_url, width, height) {
       '<body><form id="f" method="POST" ' +
       'action="https://' + SERVER_ + '/searchbyimage/upload" ' +
       'enctype="multipart/form-data">' +
+      '<input type="hidden" name="q" value="site:ebay.com">' +
+      '<input type="hidden" name="oq" value="site:ebay.com">' +
       '<input type="hidden" name="image_content" value="' + inlineImage + '">' +
       '<input type="hidden" name="filename" value="">' +
       '<input type="hidden" name="image_url" value="">' +
